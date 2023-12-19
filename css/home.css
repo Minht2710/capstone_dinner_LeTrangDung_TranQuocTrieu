@@ -649,18 +649,34 @@ h3 {
   .aboutUs__right {
     padding: 0 15px 0 48px;
   }
+  .banner__content
+  {
+    padding: 80px 0 0 0;
+  }
 }
 
 @media screen and (max-width: 991px) {
   .container {
     max-width: 720px;
   }
+  .banner
+  {
+    height: 600px;
+  }
+  .banner button 
+  {
+    margin-top: 10px;
+  }
+  .banner__content
+  {
+    padding: 80px 0 0 0;
+  }
   .aboutUs__content {
     display: flex;
     flex-direction: column;
   }
   .aboutUs__left,
-  s.aboutUs__right {
+  .aboutUs__right {
     width: 100%;
     padding: 20px 0 !important;
   }
@@ -686,6 +702,10 @@ h3 {
   }
   .countUp__item {
     padding: 40px 20px;
+  }
+  .magnefic
+  {
+    padding: 40px 10px;
   }
   .middle__content {
     padding: 0 10px !important;
@@ -720,7 +740,7 @@ h3 {
     gap: 10px;
   }
   .countUp__item {
-    padding: 40px;
+    padding: 40px 20px;
   }
   .middle__content h3 {
     font-size: 30px;
@@ -730,5 +750,107 @@ h3 {
     display: grid;
     grid-template-columns: 1fr;
     gap: 30px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .container
+  {
+    padding: 0 5px;
+    width: 100%;
+  }
+  h3
+  {
+    font-size: 24px;
+  }
+  .banner
+  {
+    min-height: 450px;
+    height: 450px;
+  }
+  .banner button 
+  {
+    margin-top: 10px;
+  }
+  .banner__content
+  {
+    padding: 80px 0 0 0;
+  }
+  .banner__content h3
+  {
+    padding-top: 100px;
+  }
+  .aboutUs__left h3
+  {
+    font-size: 24px;
+  }
+  .aboutUs__right
+  {
+    padding: 0;
+  }
+  .booking__right
+  {
+    padding: 20px;
+  }
+  .booking__right h3
+  {
+    font-size: 24px;
+  }
+  .booking__bestLeft, .booking__bestRight
+  {
+    margin: 0 5px 0 0;
+  }
+  .categories
+  {
+    padding: 45px 0
+  }
+  .categories__price
+  {
+    padding:  0 0 0 10px;
+  }
+  .categories__price h4
+  {
+    font-size: 18px;
+    margin: 0;
+  }
+  .categories__price h6 
+  {
+    font-size: 16px;
+  }
+  .features
+  {
+    padding: 40px 0;
+  }
+  .countUp
+  {
+    padding: 40px 0;
+  }
+  .countUp__item
+  {
+    padding: 20px 5px;
+  }
+  .countUp__item span 
+  {
+    font-size: 32px;
+  }
+  .countUp__item p
+  {
+    font-size: 14px
+  }
+  .magnefic
+  {
+    padding: 40px 0;
+  }
+  .magnefic__content
+  {
+    height: 300px;
+  }
+  .blogposts
+  {
+    padding: 40px 0;
+  }
+  .blogposts h4
+  {
+    font-size: 20px;
+    font-weight: 600;
   }
 }
