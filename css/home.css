@@ -8,6 +8,12 @@ h3 {
   font-weight: 700;
   line-height: 40px;
 }
+.banner h3
+{
+  font-size: 54px;
+  line-height: 1.2;
+  font-weight: 600;
+}
 .aboutUs {
   background-color: white;
   padding: 80px 0;
@@ -643,15 +649,15 @@ h3 {
 }
 
 @media screen and (max-width: 1200px) {
+  .container
+  {
+    max-width: 960px;
+  }
   .middle__content {
     padding: 0 150px;
   }
   .aboutUs__right {
     padding: 0 15px 0 48px;
-  }
-  .banner__content
-  {
-    padding: 80px 0 0 0;
   }
 }
 
@@ -663,13 +669,17 @@ h3 {
   {
     height: 600px;
   }
+  .banner h3
+  {
+    font-size: 44px;
+  }
   .banner button 
   {
     margin-top: 10px;
   }
   .banner__content
   {
-    padding: 80px 0 0 0;
+    margin: auto;
   }
   .aboutUs__content {
     display: flex;
@@ -715,6 +725,7 @@ h3 {
   }
   .middle__content h3 {
     font-size: 40px;
+    font-weight: 600;
   }
   .middle__button a {
     margin: 5px;
@@ -729,6 +740,16 @@ h3 {
 @media screen and (max-width: 767px) {
   .container {
     max-width: 540px;
+    margin: auto;
+  }
+  .banner__content
+  {
+    padding: 40px 0;
+  }
+  .banner__content h3
+  {
+    font-size: 40px;
+    font-weight: 500;
   }
   .features__content {
     display: flex;
@@ -777,14 +798,19 @@ h3 {
     top: 0;
     left: 0;
     transform: translateY(0);
-    padding: 80px 0;
+    padding: 80px 10px;
   }
   .banner__content h3
   {
     padding-top: 40px;
   }
+  .aboutUs
+  {
+    padding: 20px 0;
+  }
   .aboutUs__left h3
   {
+    margin: 0;
     font-size: 24px;
   }
   .aboutUs__right
